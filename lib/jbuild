@@ -1,0 +1,8 @@
+(jbuild_version 1)
+
+(library
+ ((name js_objbuilder)
+  (public_name js_objbuilder)
+  (libraries (js_of_ocaml))
+  (modes (byte))
+  (library_flags (-linkall))))
