@@ -1,9 +1,9 @@
 opam-version: "1.2"
 maintainer: "loic.runarvot@gmail.com"
 authors: ["Loïc Runarvot <loic.runarvot@gmail.com>"]
-homepage: ""
-bug-reports: ""
-dev-repo: ""
+homepage: "https://github.com/Aaylor/js_objbuilder"
+bug-reports: "https://github.com/Aaylor/js_objbuilder/issues/"
+dev-repo: "https://github.com/Aaylor/js_objbuilder.git"
 license: "LGPL-3 with OCaml linking exception"
 build: ["jbuilder" "build" "-j" jobs "@install"]
 depends: [

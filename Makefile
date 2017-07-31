@@ -30,7 +30,11 @@ all: build
 .PHONY: build
 build:
 	@$(HEAD) "Building" "$(LIB_CMA)"
-	$(JBUILDER) build $(LIB_CMA) @install
+	@$(JBUILDER) build --dev $(LIB_CMA) @install
+
+doc:
+	@$(HEAD) "Building" "Documentation"
+	@$(JBUILDER) build @doc
 
 .PHONY: install
 install:
